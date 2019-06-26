@@ -19,3 +19,8 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+.idea
+
+lib/*
+!lib/zb-mobile-ui.common.js
+!lib/zb-mobile-ui.css

@@ -1,11 +1,23 @@
 {
   "name": "zb-mobile-ui",
   "version": "0.1.0",
-  "private": true,
+  "description": "基于vant封装的zb移动端ui库",
+  "keywords": [
+    "zb-mobile",
+    "zb-mobile-ui"
+  ],
+  "main": "lib/zb-mobile-ui.common.js",
+  "style": "lib/zb-mobile-ui.css",
+  "author": "wz",
+  "private": false,
+  "license": "MIT",
   "scripts": {
+    "clean": "rimraf lib",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:lib": "npm run clean && vue-cli-service build --target lib --name index --dest lib packages/index.js",
+    "lint": "vue-cli-service lint",
+    "release": "sh build/release.sh"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -16,8 +28,12 @@
     "@vue/cli-plugin-eslint": "^3.8.0",
     "@vue/cli-service": "^3.8.0",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.12.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vant": "^2.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
