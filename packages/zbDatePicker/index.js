@@ -1,4 +1,4 @@
-import ZbDatePicker from './ZbDatePicker.vue'
+import ZbDatePicker from './src/ZbDatePicker.vue'
 ZbDatePicker.install = function (Vue) {
   Vue.component(ZbDatePicker.name, ZbDatePicker)
 }

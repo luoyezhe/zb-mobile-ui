@@ -1,0 +1,74 @@
+.zb-tree-select {
+    padding: 0 14px;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 14px;
+    .label-container{
+        display: flex;
+        height: 49px;
+        line-height: 49px;
+        .label-name{
+            width: 100px;
+        }
+        .label-content{
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-right: 15px;
+        }
+        .van-icon{
+            line-height: 49px;
+        }
+    }
+    .select-container{
+        display: flex;
+        .item{
+            height: 35px;
+            line-height: 37px;
+            text-align: center;
+            width: 88px;
+            margin:0 10px 10px 0;
+            position: relative;
+            border-radius:6px;
+            color: $normal-font-color;
+            border:1px solid rgba(221,221,221,1);
+            &:last-child{
+                margin-bottom: 20px;
+            }
+        }
+        .active{
+            background:rgba(204,232,253,1);
+            border:1px solid rgba(57,63,157,1);
+            color: $active-color;
+        }
+        .active-icon{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 20px;
+            height: 18px;
+        }
+    }
+    .pro-container{
+        width: 108px;
+        height: 400px;
+        overflow-y: scroll;
+        border-right: 1px solid #DDDDDD;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .city-container{
+        flex: 1;
+        height: 400px;
+        overflow-y: scroll;
+        margin-left: 20px;
+        .item{
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            float: left;
+        }
+    }
+
+}

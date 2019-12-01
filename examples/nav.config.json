@@ -1,0 +1,27 @@
+[
+  {
+    "title": "组件",
+    "list": [
+      {
+        "path": "/drop-menu",
+        "name": "DropMenu",
+        "icon": ""
+      },
+      {
+        "path": "/tree-select",
+        "name": "TreeSelect",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "title": "表单",
+    "list": [
+      {
+        "path": "/cell",
+        "name": "Cell",
+        "icon": ""
+      }
+    ]
+  }
+]

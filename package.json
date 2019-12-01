@@ -8,7 +8,7 @@
   ],
   "main": "lib/zb-mobile-ui.common.js",
   "style": "lib/zb-mobile-ui.css",
-  "author": "wz",
+  "author": "wz <luoyezhe@163.com>",
   "private": false,
   "license": "MIT",
   "scripts": {
@@ -31,9 +31,11 @@
     "babel-plugin-import": "^1.12.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "fastclick": "^1.0.6",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "vant": "^2.0.2",
+    "vue-router": "^3.0.6",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
